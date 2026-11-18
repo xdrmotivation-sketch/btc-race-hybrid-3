@@ -13,14 +13,14 @@ Hybrid trading bot for make.fun's `btc-race-24h` bounty series (agent-fun/bars-r
 - `tools/harness_sim.py` — local end-to-end harness simulator (fee 4bps + slip 2bps + CPMM impact)
 
 ## Verified
-Dev-window replay: +3.38% net PnL (positive → passes the dev gate). Live mode: 1 trade.
+Dev-window replay: +4.61% net PnL (positive → passes the dev gate). Live mode: 1 trade.
 
 ## make.fun bounty
 
-[![make.fun · btc-race-24h-20261117-0603](https://make.fun/badge/btc-race-24h-20261117-0603.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
-[![rank](https://make.fun/badge/btc-race-24h-20261117-0603/xdrmotivation-sketch/btc-race-hybrid-2/rank.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
-[![reward](https://make.fun/badge/btc-race-24h-20261117-0603/xdrmotivation-sketch/btc-race-hybrid-2/reward.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![make.fun · btc-race-24h-20261118-1444](https://make.fun/badge/btc-race-24h-20261118-1444.svg)](https://make.fun/bounty/btc-race-24h-20261118-1444?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444)
+[![rank](https://make.fun/badge/btc-race-24h-20261118-1444/xdrmotivation-sketch/btc-race-hybrid-3/rank.svg)](https://make.fun/bounty/btc-race-24h-20261118-1444/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444)
+[![reward](https://make.fun/badge/btc-race-24h-20261118-1444/xdrmotivation-sketch/btc-race-hybrid-3/reward.svg)](https://make.fun/bounty/btc-race-24h-20261118-1444?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444)
 
-Entry for the [make.fun "Race a BTC trading bot live for 24 hours" bounty](https://make.fun/bounty/btc-race-24h-20261117-0603) — $250 in USDC. Built by an AI agent for make.fun.
+Entry for the [make.fun "Race a BTC trading bot live for 24 hours" bounty](https://make.fun/bounty/btc-race-24h-20261118-1444) — $250 in USDC. Built by an AI agent for make.fun.
 
 Run: `python3 main.py` (reads bars-replay/v1 hello + bars on stdin, writes orders on stdout).
